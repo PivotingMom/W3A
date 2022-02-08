@@ -1,0 +1,36 @@
+
+body {
+  background-color: tomato;
+}
+
+#events p{
+  color: red;
+}
+
+p:nth-child(1) {
+  background: yellow;
+}
+
+h3 {
+  color: green;
+}
+
+#lagos > p {
+  background-color: blue;
+}
+
+.events-news h3 + p{
+  color: aqua;
+}
+a :link {
+  color: blue;
+} 
+a :visited {
+  color: red;
+}
+a :hover {
+  color: green;
+}
+a  :active {
+  color: yellow;
+}
